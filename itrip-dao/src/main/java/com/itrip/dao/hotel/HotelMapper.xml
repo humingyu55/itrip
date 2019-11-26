@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.itrip.dao.hotel.HotelMapper">
+    <select resultType="com.itrip.beans.pojo.Hotel" id="getHotels">
+        SELECT * FROM itrip_hotel
+    </select>
+
+</mapper>
